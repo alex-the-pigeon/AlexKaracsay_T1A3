@@ -21,7 +21,8 @@ s1_adjective = input("Enter a silly adjective: ")
 # Story 1 - The Comedian
 
 print("THE COMEDIAN")
-madlib1 = f"The sound of the crowd starts to swell. \ Everyone is very {s1_excited} about seeing the latest stand-up show by {s1_fictional_character}. \ You {s1_movement} over to your seat in the front row and sit down.\ The show is about to start and youre so feeling so {s1_feeling}.\ {s1_fictional_character} comes out on stage and begins to {s1_sound}.\ The crowd applauds loudly. \What an {s1_adjective} show!"
+madlib1 = f"The sound of the crowd starts to swell. \n Everyone is very {s1_excited} about seeing the latest stand-up show by {s1_fictional_character}. \n You {s1_movement} over to your seat in the front row and sit down.\n The show is about to start and youre so feeling so {s1_feeling}.\n {s1_fictional_character} comes out on stage and begins to {s1_sound}.\n The crowd applauds loudly. \nWhat an {s1_adjective} show!"
 
 print(madlib1)
+
 
