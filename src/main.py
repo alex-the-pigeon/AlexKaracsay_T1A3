@@ -1,10 +1,14 @@
 # import information here
+from functions import story1, story2, story3 
+
 
 # ASCII art header
 
-# Beginning of menu function 
 
-print("Welcome to Silly Libs!")
+
+# Beginning of menu function 
+print("Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!")
+
 
 def create_menu():
     print("| Enter 1 to choose:  THE COMEDIAN |")
@@ -21,11 +25,11 @@ while user_choice != "4":
     user_choice = create_menu()
 
     if (user_choice == "1"):
-        print("Start playing THE COMEDIAN?")
+        story1()
     elif (user_choice == "2"):
-        print("Start playing THE ATHLETE?")
+        story2()
     elif (user_choice == "3"):
-        print("Start playing THE STUDENT?")
+        story3()
     elif (user_choice == "4"):
         continue
     else:
