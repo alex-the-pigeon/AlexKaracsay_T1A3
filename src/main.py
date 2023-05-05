@@ -14,7 +14,7 @@ def create_menu():
     print("| Enter 1 to choose:  THE COMEDIAN |")
     print("| Enter 2 to choose:  THE ATHLETE  |")
     print("| Enter 3 to choose:  THE STUDENT  |")
-    print("| Enter 4 to choose:  THE GAMER    |")
+    print("| Enter 4 to choose:  THE MAGICIAN |")
     print("| Enter 5 to to return to menu     |")
     choice = input("Enter your selection: ")
     return choice
