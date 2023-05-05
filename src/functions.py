@@ -1,3 +1,5 @@
+# I've created this functions file to run the story files when their respective number on the menu is entered. 
+
 def story1():
     import story1
 
