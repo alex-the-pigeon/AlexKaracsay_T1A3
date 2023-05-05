@@ -8,3 +8,6 @@ def story2():
 
 def story3():
     import story3
+
+def story4():
+    import story4
