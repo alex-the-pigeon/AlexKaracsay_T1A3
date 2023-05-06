@@ -4,8 +4,8 @@
 I have created a 'madlibs' style game that contains a menu showing four different stories to choose from. The user will select the story they'd like to play and it will ask some questions. Once the user input has been collected, the words will be inserted into the story and it will print on the screen. There will be an option to go back to the menu so the game can be played again. 
 
 ### **Related links**
-- Trello board (project planning)
-- insert github link here
+- [Trello board (project planning)](https://trello.com/b/snhvaaXb/terminal-application)
+- [GitHub repository](https://github.com/alex-the-pigeon/AlexKaracsay_T1A3)
 - presentation video (YouTube)
 
 ### **Installation**
@@ -14,6 +14,13 @@ I have created a 'madlibs' style game that contains a menu showing four differen
 - PyPi packages: Art 5.9, Colored 1.4.4, Clear 2.0.0
 
 Information on how to install program here:
+
+1. Follow GitHub link above and click on green code button (insert screenshot here)
+2. Download ZIP file
+3. Open the terminal (mac) / cmd (windows)
+4. Run the run.sh file commands by copy/pasting them from the file into the open terminal on your computer. What each command will do is noted here on the screenshot. (insert screenshot)
+5. The Silly Libs game will run and you can play
+
 
 ### **Features**
  An interactive menu utelising loops: 
