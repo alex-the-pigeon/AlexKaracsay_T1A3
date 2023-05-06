@@ -1,4 +1,5 @@
 # I've created this functions file to run the story files when their respective number on the menu is entered. 
+from clear import clear
 
 def story1():
     import story1
@@ -11,4 +12,3 @@ def story3():
 
 def story4():
     import story4
-

@@ -1,11 +1,12 @@
 # imports
 #From functions file to run each story
 from functions import story1, story2, story3 , story4
-# Colored package
+# Colored 1.4.4 package
 from colored import fg, bg, attr
-# Art package
+# Art 5.9 package
 from art import *
-
+# Clear  2.0.0 screen package
+from clear import clear
 
 # ASCII art header
 
@@ -20,7 +21,7 @@ def create_menu():
     print(f"{fg('yellow')}| Enter 2 to choose:  THE ATHLETE  | {attr('reset')}")
     print(f"{fg('red')}| Enter 3 to choose:  THE STUDENT  | {attr('reset')}")
     print(f"{fg('purple_3')}| Enter 4 to choose:  THE MAGICIAN |{attr('reset')}")          
-    print(f"{fg('cyan')}{attr('bold')}| Enter 5 to to return to menu     |{attr('reset')}")
+    print(f"{fg('cyan')}{attr('bold')}| Enter 5 to exit     |{attr('reset')}")
     choice = input("Enter your selection: ")
     return choice
 
@@ -43,9 +44,10 @@ while user_choice != "5":
     else:
         print("Invalid Input")
 
-    input("Press ENTER to continue") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
+    input("Press ENTER to play again") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
+    clear()
 
-print(f"{bg('blue')}Thank you for playing SILLY LIBS!{attr('reset')}")   
+print(f"{bg('blue')}Thank you for playing SILLY LIBS!{attr('reset')}")  
 
 
 
