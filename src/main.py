@@ -43,9 +43,11 @@ while user_choice != "5":
         continue # If 5 is chosen it will keep the program running and await further input
     else:
         print("Invalid Input")
+    
 
     input("Press ENTER to play again") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
-    clear()
+
+tprint("SILLY  LIBS!!!","wizard")
 
 print(f"{bg('blue')}Thank you for playing SILLY LIBS!{attr('reset')}")  
 
