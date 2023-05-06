@@ -12,15 +12,15 @@ from art import *
 tprint("SILLY  LIBS!!!","wizard") #This "wizard" code randomly selects an appropriate font to correspond with how much text is written. It will change every time the program is run for a bit of fun.
 
 # Welcome title print
-print(f"{fg('blue')}Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!{attr('reset')}")
+print(f"{fg('blue')}{attr('bold')}Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!{attr('reset')}")
 
 # Beginning of menu function 
 def create_menu():
-    print("| Enter 1 to choose:  THE COMEDIAN |")
-    print("| Enter 2 to choose:  THE ATHLETE  |")
-    print("| Enter 3 to choose:  THE STUDENT  |")
-    print("| Enter 4 to choose:  THE MAGICIAN |")
-    print("| Enter 5 to to return to menu     |")
+    print(f"{fg('green')}| Enter 1 to choose:  THE COMEDIAN | {attr('reset')}")
+    print(f"{fg('yellow')}| Enter 2 to choose:  THE ATHLETE  | {attr('reset')}")
+    print(f"{fg('red')}| Enter 3 to choose:  THE STUDENT  | {attr('reset')}")
+    print(f"{fg('purple_3')}| Enter 4 to choose:  THE MAGICIAN |{attr('reset')}")          
+    print(f"{fg('cyan')}{attr('bold')}| Enter 5 to to return to menu     |{attr('reset')}")
     choice = input("Enter your selection: ")
     return choice
 
@@ -45,9 +45,7 @@ while user_choice != "5":
 
     input("Press ENTER to continue") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
 
-print("Thank you for playing SILLY LIBS!")   
-
-
+print(f"{bg('blue')}Thank you for playing SILLY LIBS!{attr('reset')}")   
 
 
 
