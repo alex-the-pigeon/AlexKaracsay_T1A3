@@ -1,5 +1,8 @@
-# import information here
+# imports
+#From functions file to run each story
 from functions import story1, story2, story3 , story4
+# Colored
+from colored import fg, bg, attr
 
 
 # ASCII art header
@@ -7,7 +10,7 @@ from functions import story1, story2, story3 , story4
 
 
 # Welcome title print
-print("Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!")
+print(f"{fg('blue')}Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!{attr('reset')}")
 
 # Beginning of menu function 
 def create_menu():
