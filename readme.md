@@ -1,7 +1,7 @@
 # Terminal Application 
 
 ### **Overview**
-I have created a 'madlibs' style game that contains a menu showing three different stories to choose from. The user will select the story they'd like to play and it will ask some questions. Once the user input has been collected, the words will be inserted into the story and it will print on the screen. There will be an option to go back to the menu so the game can be played again. 
+I have created a 'madlibs' style game that contains a menu showing four different stories to choose from. The user will select the story they'd like to play and it will ask some questions. Once the user input has been collected, the words will be inserted into the story and it will print on the screen. There will be an option to go back to the menu so the game can be played again. 
 
 ### **Related links**
 - Trello board (project planning)
@@ -11,13 +11,13 @@ I have created a 'madlibs' style game that contains a menu showing three differe
 ### **Installation**
 
 - Python 3
-- PyPi packages: Art, Colored, rich.prompt
+- PyPi packages: Art 5.9, Colored 1.4.4, Clear 2.0.0
 
 Information on how to install program here:
 
 ### **Features**
  An interactive menu utelising loops: 
- - Player is presented with multiple options that have a corresponding number. When user input is collected, the appropriate response will run. For example, player selects option 1 and   story 1 will run. 
+ - Player is presented with multiple options that have a corresponding number. When user input is collected, the appropriate response will run. For example, player selects option 1 and story 1 will run. 
 
 User input:
 - Upon entering a story the player will be asked several questions and prompted to answer in the terminal. This input is collected and then **output** to the story at the end.
@@ -34,3 +34,8 @@ Individual stories to play:
 Aesthetic features:
 - Utelisation of PyPi package **Colored** to change text colour for variety and added snazziness.
 
+- ASCII art text header made with **Art** package which changes randomly each time the program is run.
+
+### **Style guide**
+The style guide used in this project is PEP 8 to make the code as readable as possible. Please find reference link here:
+[PEP8 Guide](https://peps.python.org/pep-0008/)
