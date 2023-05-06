@@ -3,12 +3,13 @@
 from functions import story1, story2, story3 , story4
 # Colored package
 from colored import fg, bg, attr
-
+# Art package
+from art import *
 
 
 # ASCII art header
 
-
+tprint("SILLY  LIBS!!!","wizard") #This "wizard" code randomly selects an appropriate font to correspond with how much text is written. It will change every time the program is run for a bit of fun.
 
 # Welcome title print
 print(f"{fg('blue')}Welcome to SILLY LIBS, a SILLY game with SILLY jokes for SILLY fun!{attr('reset')}")
