@@ -38,7 +38,7 @@ while user_choice != "5":
     else:
         print("Invalid Input")
 
-    input("Press ENTER to continue")
+    input("Press ENTER to continue") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
 
 print("Thank you for playing SILLY LIBS!")   
 
