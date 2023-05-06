@@ -21,7 +21,7 @@ def create_menu():
     print(f"{fg('yellow')}| Enter 2 to choose:  THE ATHLETE  | {attr('reset')}")
     print(f"{fg('red')}| Enter 3 to choose:  THE STUDENT  | {attr('reset')}")
     print(f"{fg('purple_3')}| Enter 4 to choose:  THE MAGICIAN |{attr('reset')}")          
-    print(f"{fg('cyan')}{attr('bold')}| Enter 5 to exit     |{attr('reset')}")
+    print(f"{fg('cyan')}{attr('bold')}| Enter 5 to exit |{attr('reset')}")
     choice = input("Enter your selection: ")
     return choice
 
