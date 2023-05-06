@@ -1,8 +1,9 @@
 # imports
 #From functions file to run each story
 from functions import story1, story2, story3 , story4
-# Colored
+# Colored package
 from colored import fg, bg, attr
+
 
 
 # ASCII art header
