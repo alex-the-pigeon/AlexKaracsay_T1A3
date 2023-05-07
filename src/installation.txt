@@ -1,0 +1,22 @@
+INSTALLATION
+(Included this as well as README file in case user does not have VSCode or similiar to open the markdown file)
+
+REQUIREMENTS
+
+- Python 3 required. The bash script will check if your machine has python installed and if not found, you can download python here: Python website
+- PyPi packages: Art 5.9, Colored 1.4.4, Clear 2.0.0 (These will be automatically installed for you)
+
+HOW TO INSTALL
+
+1. Copy/paste this URL in your web browser:
+https://github.com/alex-the-pigeon/AlexKaracsay_T1A3
+
+2. Select the commit that says "final commit", click on green 'code' button and select "DOWNLOAD ZIP".
+
+3. Download ZIP file
+
+4. Open the terminal (mac) / cmd (windows) on your computer
+
+5. Run the run.sh file (found in the ZIP folder) commands by copy/pasting them from the file into the open terminal on your computer. What each command will do is noted in the run file.
+
+6. The Silly Libs game will run and you can play

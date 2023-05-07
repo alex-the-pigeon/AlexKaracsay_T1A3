@@ -27,7 +27,9 @@ def create_menu():
 
 user_choice = ""
 
-# Menu loop - Only numbers 1 through 5 will work, any other value will throw an error and tell the user that their choice is invalid.
+# Menu loop - Only numbers 1 through 5 will work, any other value will throw an error and tell the user that their choice is invalid. 
+# This is handled by the 'else' statement.
+
 while user_choice != "5":
     user_choice = create_menu()
 
@@ -42,10 +44,12 @@ while user_choice != "5":
     elif (user_choice == "5"):
         continue # If 5 is chosen it will keep the program running and await further input
     else:
-        print("Invalid Input")
+        print("Invalid Input. Please use numbers 1 through 5 for your selection.")
     
+    
+    #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
+    input("Press ENTER to play again") 
 
-    input("Press ENTER to play again") #This will appear at the bottom of the terminal in the menu and also in each story so the user can easily get back to the menu and play again.
 
 tprint("SILLY  LIBS!!!","wizard")
 
