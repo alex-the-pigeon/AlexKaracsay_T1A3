@@ -6,7 +6,7 @@ I have created a 'madlibs' style game called 'Silly Libs' that contains a menu s
 ### **Related links**
 - [Trello board (project planning)](https://trello.com/b/snhvaaXb/terminal-application)
 - [GitHub repository](https://github.com/alex-the-pigeon/AlexKaracsay_T1A3)
-- presentation video (YouTube)
+- [Presentation video](https://youtu.be/vdcbbj5B4zg)
 
 ### **Installation**
 
@@ -17,7 +17,8 @@ I have created a 'madlibs' style game called 'Silly Libs' that contains a menu s
 
 **How to install:**
 
-1. Follow GitHub repository link above and click on green code button (insert screenshot here)
+1. Follow GitHub repository link above and click on green code button
+![github](/docs/git_screen.png)
 2. Download ZIP file
 3. Open the terminal (mac) / cmd (windows) on your computer
 4. Run the run.sh file (found in the ZIP folder) commands by copy/pasting them from the file into the open terminal on your computer. What each command will do is noted here on the screenshot. 
@@ -62,3 +63,4 @@ The style guide used in this project is PEP 8 to make the code as readable as po
 - [Art 5.9](https://pypi.org/project/art/)
 - [Colored 1.4.4](https://pypi.org/project/colored/)
 - [Clear 2.0.0](https://pypi.org/project/clear/)
+- [Python tutorial used as basic reference](https://pythonscholar.com/python-projects/mad-libs-game-in-python/)
